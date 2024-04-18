@@ -159,3 +159,21 @@ double area_ofCylinder(double radius, double height)
 {
     return 2 * 3.1415 * radius * (radius + height);
 }
+double area_ofCube(double side)
+{
+    return 6 * side * side;
+}
+double area_ofPyramid(double base, double height)
+{
+    // Assuming it's a square pyramid
+    return base * base + 2 * base * sqrt(pow(base / 2, 2) + pow(height, 2));
+}
+double area_ofRhombus(double diagonal1, double diagonal2)
+{
+    return 0.5 * diagonal1 * diagonal2;
+}
+double area_ofSphere(double radius)
+{
+    return 4 * 3.1415 * radius * radius;
+}
+
