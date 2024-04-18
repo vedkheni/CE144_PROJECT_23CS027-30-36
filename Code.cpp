@@ -143,3 +143,19 @@ double area_ofSquare(double side)
 {
     return side * side;
 }
+double area_ofTrapezoid(double base1, double base2, double height)
+{
+    return 0.5 * (base1 + base2) * height;
+}
+double area_ofParallelogram(double base, double height)
+{
+    return base * height;
+}
+double area_ofCone(double radius, double height)
+{
+    return 3.1415 * radius * (radius + sqrt(pow(height, 2) + pow(radius, 2)));
+}
+double area_ofCylinder(double radius, double height)
+{
+    return 2 * 3.1415 * radius * (radius + height);
+}
