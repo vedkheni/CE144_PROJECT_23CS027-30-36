@@ -70,6 +70,30 @@ int main()
         cout << "\nArea of the square is: " << area_ofSquare(side) << endl;
          cout << "__________________________________"<<endl;
         break;
+      case 5:
+        cout << "Enter lengths of both bases and height of the trapezoid: \n";
+        cin >> base1 >> base2 >> height;
+        cout << "\nArea of the trapezoid is: " << area_ofTrapezoid(base1, base2, height) <<endl;
+         cout << "__________________________________"<<endl;
+        break;
+    case 6:
+        cout << "Enter base and height of the parallelogram: \n";
+        cin >> base >> height;
+        cout << "\nArea of the parallelogram is: " << area_ofParallelogram(base, height) << endl;
+         cout << "__________________________________"<<endl;
+        break;
+    case 7:
+        cout << "Enter radius and height of the cone: \n";
+        cin >> radius >> height;
+        cout << "\nArea of the cone is: " << area_ofCone(radius, height) << endl; 
+        cout << "__________________________________"<<endl;
+        break;
+    case 8:
+        cout << "Enter radius and height of the cylinder: \n";
+        cin >> radius >> height;
+        cout << "\nArea of the cylinder is: " << area_ofCylinder(radius, height) << endl;
+         cout << "__________________________________"<<endl;
+        break;
 
 
 
