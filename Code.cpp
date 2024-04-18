@@ -43,4 +43,43 @@ int main()
     cout << " \nEnter your choice : ";
     cin >> choice;
     cout << "__________________________________"<<endl<<endl;
+
+   switch (choice)
+    {
+    case 1:
+        cout << "Enter radius of the circle: \n";
+        cin >> radius;
+        cout << "\nArea of the circle is: " << area_ofCircle(radius) << endl;
+        cout << "__________________________________"<<endl;
+        break;
+    case 2:
+        cout << "Enter length and width of the rectangle: \n";
+        cin >> length >> width;
+        cout << "\nArea of the rectangle is: " << area_ofRectangle(length, width) << endl;
+         cout << "__________________________________";
+        break;
+    case 3:
+        cout << "Enter base and height of the triangle: \n";
+        cin >> base >> height;
+        cout << "\nArea of the triangle is: " << area_ofTriangle(base, height) << endl; 
+        cout << "__________________________________";
+        break;
+    case 4:
+        cout << "Enter the side length of the square: \n";
+        cin >> side;
+        cout << "\nArea of the square is: " << area_ofSquare(side) << endl;
+         cout << "__________________________________"<<endl;
+        break;
+
+
+
+     
+     default:
+        cout << "!!!Invalid choice!!!\nPlease choose a valid option." << endl;
+      cout << "__________________________________"<<endl;
+        break;
+    }
+    cout<<"\n     23CS027_23CS030_23CS036";
+    cout << "\n__________________________________"<<endl;
+    return 0;
 }
