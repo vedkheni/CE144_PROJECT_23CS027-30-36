@@ -118,11 +118,6 @@ int main()
         cout << "\nArea of the sphere is: " << area_ofSphere(radius) << endl;
          cout << "__________________________________"<<endl;
         break;
-    default:
-
-
-
-     
      default:
         cout << "!!!Invalid choice!!!\nPlease choose a valid option." << endl;
       cout << "__________________________________"<<endl;
@@ -131,4 +126,20 @@ int main()
     cout<<"\n     23CS027_23CS030_23CS036";
     cout << "\n__________________________________"<<endl;
     return 0;
+}
+double area_ofCircle(double radius)
+{
+    return 3.1415 * radius * radius;
+}
+double area_ofRectangle(double length, double width)
+{
+    return length * width;
+}
+double area_ofTriangle(double base, double height)
+{
+    return 0.5 * base * height;
+}
+double area_ofSquare(double side)
+{
+    return side * side;
 }
