@@ -94,6 +94,31 @@ int main()
         cout << "\nArea of the cylinder is: " << area_ofCylinder(radius, height) << endl;
          cout << "__________________________________"<<endl;
         break;
+      case 9:
+        cout << "Enter the side length of the cube: \n";
+        cin >> side;
+        cout << "\nArea of the cube is: " << area_ofCube(side) << endl;
+         cout << "__________________________________"<<endl;
+        break;
+    case 10:
+        cout << "Enter base and height of the pyramid: \n";
+        cin >> base >> height;
+        cout << "\nArea of the pyramid is: " << area_ofPyramid(base, height) << endl;
+        cout << "__________________________________"<<endl;
+        break;
+    case 11:
+        cout << "Enter lengths of both diagonals of the rhombus: \n";
+        cin >> diagonal1 >> diagonal2;
+        cout << "\nArea of the rhombus is: " << area_ofRhombus(diagonal1, diagonal2) << endl;
+         cout << "__________________________________"<<endl;
+        break;
+    case 12:
+        cout << "Enter radius of the sphere: \n";
+        cin >> radius;
+        cout << "\nArea of the sphere is: " << area_ofSphere(radius) << endl;
+         cout << "__________________________________"<<endl;
+        break;
+    default:
 
 
 
