@@ -7,7 +7,18 @@ TOPIC: -: Area Calculation Program :-
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+double area_ofCircle(double radius);
+double area_ofRectangle(double length, double width);
+double area_ofTriangle(double base, double height);
+double area_ofSquare(double side);
+double area_ofTrapezoid(double base1, double base2, double height);
+double area_ofParallelogram(double base, double height);
+double area_ofCone(double radius, double height);
+double area_ofCylinder(double radius, double height);
+double area_ofCube(double side);
+double area_ofPyramid(double base, double height);
+double area_ofRhombus(double diagonal1, double diagonal2);
+double area_ofSphere(double radius);
 int main()
 {
  int choice;
